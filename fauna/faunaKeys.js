@@ -1,0 +1,2 @@
+
+export const FAUNA_SECRET = 'fnAFbWKQ0dACUW5f4tIO4A8E0MHetZSdpmLT1M-e';

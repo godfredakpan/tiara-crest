@@ -1,0 +1,26 @@
+.cottage-image{
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #F9B11E;
+    max-height: 300px;
+}
+@media screen and (max-width: 768px) {
+    .cottage-image {
+      border-width: 0;
+    }
+  }
+
+  .cottage-details {
+    max-width: 100%; /* Ensure the details don't exceed the card width */
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  /* Style that applies to screens smaller than or equal to 768px (typical mobile screens) */
+  @media screen and (max-width: 768px) {
+    .cottage-details {
+      max-width: 100%; /* Remove the maximum width on smaller screens */
+      display: flex;
+      flex-wrap: wrap; 
+    }
+  }
