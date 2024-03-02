@@ -1,7 +1,7 @@
 import React from "react";
 
 const ReserveButton = ({apartment}) => {
-  const url = `whatsapp://send?text=Hi, I will like to book for this apartment(${apartment.title}) at ${apartment.location} you listed on Tiara Crest Website;phone=2348127993148`;
+  const url = `whatsapp://send?text=Hi, I will like to book for this apartment(${apartment.title}) at ${apartment.location} you listed on Tiara Crest Website&phone=2348127993148`;
 
   const linkStyle = {
     backgroundColor: "#191F59",

@@ -74,7 +74,7 @@ export default function CourseDetails() {
                   </span> */}
                  </p>
                 
-                <p className="text-base text-gray-700 mb-4">4 guests · 2 bedroom · 2 beds · 1 bath</p>
+                {/* <p className="text-base text-gray-700 mb-4">4 guests · 2 bedroom · 2 beds · 1 bath</p> */}
 
                 <div className="mb-4">
                   <h4 className="text-lg font-semibold mb-2">Details</h4>
