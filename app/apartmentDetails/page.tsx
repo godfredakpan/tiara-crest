@@ -83,41 +83,14 @@ export default function CourseDetails() {
                   <p className="text-base text-gray-700 mb-4 cottage-details">{apartmentData.description}</p>
                   <h4 className="text-lg font-semibold mb-2">What this Place Offers</h4>
                   <ul className="flex items-center cottage-details">
-                    <li className="flex items-center mr-4">
+                  {apartmentData.features?.map((feature: string, index: React.Key | null | undefined) => (
+                    <li className="flex items-center mr-4" key={index}>
                       <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                       </svg>
-                      Swimming Pool
+                      <span>{feature}</span>
                     </li>
-                    <li className="flex items-center mr-4">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Wifi
-                    </li>
-                    <li className="flex items-center mr-4">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Lounge
-                    </li>
-
-                    <li className="flex items-center mr-4">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      Grill
-                    </li>
-
-                    <li className="flex items-center mr-4">
-                      <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                      First aid kit
-                    </li>
-
-
-
+                    ))}
                   </ul>
                 </div>
 
