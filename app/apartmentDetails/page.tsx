@@ -29,7 +29,7 @@ export default function CourseDetails() {
   }, []);
 
   return (
-    <main style={{marginBottom: 50}} className="p-4 md:p-10 mx-auto max-w-7xl">
+    <main style={{marginBottom: 150}} className="p-4 md:p-10 mx-auto max-w-7xl">
 
       <ReserveButton apartment={apartmentData}/>
       <div style={{ marginBottom: 20 }}>
