@@ -121,7 +121,7 @@ export default function CourseDetails() {
                   </ul>
                 </div>
 
-                <div className="mb-4 " style={{lineHeight: 3}} >
+                <div className="mb-4 " style={{lineHeight: 2}} >
                   <h4 className="text-lg font-semibold mb-2">Apartment Policy</h4>
                   <ul className="flex items-center cottage-details">
                     <li className="flex items-center mr-4">

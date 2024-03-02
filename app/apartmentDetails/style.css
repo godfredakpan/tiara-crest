@@ -1,6 +1,6 @@
 .cottage-image{
     border-width: 5px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border-color: #F9B11E;
     max-height: 300px;
 }
