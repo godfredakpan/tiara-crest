@@ -116,7 +116,7 @@ function ApartmentPlaceholder() {
 
 
   return (
-    <main className="p-4 md:p-10 mx-auto max-w-7xl" style={{marginBottom: 50}}>
+    <main className="p-4 md:p-10 mx-auto max-w-7xl" style={{marginBottom: 150}}>
       <div style={{ marginBottom: 20 }}>
         <Title>Available Apartments</Title>
       </div>
