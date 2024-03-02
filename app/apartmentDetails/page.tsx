@@ -69,9 +69,9 @@ export default function CourseDetails() {
             <div className="mt-8 mx-auto max-w-full text-left ">
               <div className="mx-auto max-w-full text-left">
                 <p className="text-1xl font-bold text-gray-500 mb-2">{apartmentData.title}
-                <span style={{opacity:0.2}} className={apartmentData.status === 'enabled' ? 'text-green-500' : 'text-gray-200'}>
+                {/* <span style={{opacity:0.2}} className={apartmentData.status === 'enabled' ? 'text-green-500' : 'text-gray-200'}>
                     {apartmentData.status === 'enabled' ? ' Available' : ' Unavailable'}
-                  </span>
+                  </span> */}
                  </p>
                 
 

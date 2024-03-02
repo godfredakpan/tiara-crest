@@ -118,7 +118,7 @@ function ApartmentPlaceholder() {
   return (
     <main className="p-4 md:p-10 mx-auto max-w-7xl" >
       <div style={{ marginBottom: 20 }}>
-        <Title>Apartments</Title>
+        <Title>Available Apartments</Title>
       </div>
       <Grid numItemsSm={4} numItemsLg={4} className="gap-2">
         {currentApartments.map((item:any) => (
@@ -160,7 +160,7 @@ function ApartmentPlaceholder() {
 
                   <Flex className="mt-6">
                   <Text>{item.location}</Text>
-                  <Text className='text-gray-300'>{item.status === 'enabled' ? 'Available' : 'Unavailable'}</Text>
+                  {/* <Text className='text-gray-300'>{item.status === 'enabled' ? 'Available' : 'Unavailable'}</Text> */}
                     <button
                       style={{ backgroundColor: '#191F59' }}
                       className="bg-green-500 text-size-10 text-sm text-white px-2 py-1 rounded mr-1 text-right"
