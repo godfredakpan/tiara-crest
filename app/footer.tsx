@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <>
 
-<div className="footer-card fixed bottom-0 left-0 right-0 mx-auto w-11/12 sm:w-[581px] h-40 sm:h-[80px] p-0.5 z-10">
+<div style={{marginTop: 100}} className="footer-card fixed bottom-0 left-0 right-0 mx-auto w-11/12 sm:w-[581px] h-40 sm:h-[80px] p-0.5 z-10">
   <div className="rounded-[14px] w-full h-full bg-gray-50 border border-gray-200 flex flex-col sm:flex-row items-center justify-center sm:justify-between space-y-3 sm:space-y-0 px-5">
 
     <p className="text-black text-[13px] font-mono w-[304px] h-10 flex items-center justify-center p-3">
